@@ -1,3 +1,8 @@
+/* EXERCICE 6 : Manipulation de Piles (LIFO).
+   Organise une pile pour mettre les nombres pairs au fond et les 
+   impairs au-dessus en utilisant une pile intermédiaire.
+   Complexité : O(n).
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
