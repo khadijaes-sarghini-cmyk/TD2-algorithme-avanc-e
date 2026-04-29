@@ -1,3 +1,8 @@
+/* EXERCICE 7 : Test de Palindrome (Pile + File).
+   Vérifie si un mot se lit dans les deux sens en comparant 
+   l'ordre FIFO (File) et l'ordre LIFO (Pile).
+   Complexité : O(n).
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
