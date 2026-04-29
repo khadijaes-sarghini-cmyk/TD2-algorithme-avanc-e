@@ -1,3 +1,8 @@
+/* EXERCICE 4 : Fusion de deux listes.
+   Combine deux listes (A et B) dans une nouvelle liste C en alternant 
+   les éléments. Gère les listes de tailles différentes (m et n).
+   Complexité : O(m + n).
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
