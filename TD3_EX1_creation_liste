@@ -1,3 +1,8 @@
+/* EXERCICE 1 : Création d'une liste dynamique.
+   Ce programme génère une liste chaînée de 100 entiers aléatoires (0-99).
+   Il utilise l'insertion en tête pour une efficacité optimale.
+   Complexité : O(n) car on répète n fois une insertion en O(1).
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
