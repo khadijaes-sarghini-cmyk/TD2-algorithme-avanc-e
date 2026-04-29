@@ -1,3 +1,8 @@
+/* EXERCICE 3 : Suppression du minimum.
+   Ce programme identifie la plus petite valeur et libère son nœud.
+   On utilise un pointeur précédent pour maintenir la structure de la liste.
+   Complexité : O(n) pour le parcours de recherche du minimum.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
