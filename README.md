@@ -1,17 +1,38 @@
-📂 TD3 : Structures de Données Dynamiques
-(C)Filière : Infrastructure Digitale, Réseaux et Sécurité (IDRS)
-Objectif : Implémentation et analyse de structures linéaires (Listes, Piles, Files).
-📝 Présentation TechniqueCe dépôt contient les solutions optimisées du TD3.
-L'accent est mis sur l'allocation dynamique de la mémoire et la compréhension des principes de gestion de flux de données (LIFO/FIFO).
---> Gestion des Listes ChaînéesExercice 1 (Génération) : Création d'une liste de 100 entiers via rand().
- Utilisation de l'insertion en tête pour garantir une complexité de $O(1)$ par insertion.
---> Exercice 2 (Recherche) : Implémentation d'un algorithme de parcours séquentiel pour la vérification de données.
---> Exercice 3 (Suppression) : Logique de recherche du minimum et réorganisation des pointeurs pour extraire un nœud sans rompre la chaîne.
---> Exercice 4 (Fusion) : Algorithme de fusion alternée entre deux listes de tailles différentes ($m, n$).
---> Exercice 5 (Destruction) : Protocole de libération de la mémoire vive via free() pour éviter les fuites de mémoire (Memory Leaks).
-  * Structures de Piles (LIFO)
---> Exercice 6 : Utilisation des primitives push() et pop(). I
- mplémentation d'une procédure de tri sélectif utilisant une pile intermédiaire pour organiser les données (Pairs sous les Impairs).3
--->.Structures de Files (FIFO) & Logique
-    Exercice 7 : Algorithme de détection de Palindrome.
-  Ce programme illustre la complémentarité entre une file (lecture normale) et une pile (lecture inversée) pour valider l'intégrité symétrique d'un message
+# 🚀 Algorithmique et Structures de Données en C
+**Auteur :** Khadija | Étudiante en Infrastructure Digitale, Réseaux et Sécurité (IDRS)
+**École :** EST Kénitra | 1ère Année
+
+Ce dépôt contient l'ensemble des Travaux Dirigés (TD) réalisés durant le second semestre. L'objectif est d'approfondir la manipulation de la mémoire, les structures de données dynamiques et l'optimisation algorithmique.
+
+---
+
+## 📋 Sommaire des Travaux Dirigés
+
+### 📂 TD 1 : Structures et Gestion Mémoire
+* **Concepts :** `typedef struct`, allocation statique vs dynamique (`malloc`), passage par adresse.
+* **Exercices :** Gestion de coordonnées géométriques (Points) et manipulation d'un système de gestion de temps (Heure hh:mm:ss).
+
+### 📂 TD 2 : Analyse de Complexité & Récursivité
+* **Concepts :** Notation Grand O, récursivité simple et croisée.
+* **Points Clés :** Comparaison entre l'exponentiation classique $O(n)$ et l'exponentiation rapide $O(\log n)$. Étude du MiniMax sur matrice.
+
+### 📂 TD 3 : Listes Chaînées Simples
+* **Concepts :** Pointeurs, nœuds dynamiques, gestion de la tête de liste.
+* **Opérations :** Insertion (tête/fin), suppression, et parcours de listes. C'est la base pour les structures de données linéaires.
+
+### 📂 TD 4 : Arbres Binaires de Recherche (ABR)
+* **Concepts :** Structures hiérarchiques, recherche optimisée.
+* **Exercices :** Insertion, calcul d'occurrences, et transformation d'un ABR en liste triée (Tree Sort).
+
+---
+
+## 📊 Tableau de Synthèse des Performances
+| Algorithme | Structure | Complexité Moyenne |
+| :--- | :--- | :--- |
+| Recherche Linéaire | Tableau / Liste | $O(n)$ |
+| Exponentiation Rapide | Récursif | $O(\log n)$ |
+| Recherche dans ABR | Arbre | $O(\log n)$ |
+| Tri via ABR (Tree Sort) | Arbre + Liste | $O(n \log n)$ |
+
+---
+*Projet réalisé dans le cadre du module Algorithmique II.*
