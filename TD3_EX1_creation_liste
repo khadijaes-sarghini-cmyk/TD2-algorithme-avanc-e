@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/* Définition de la structure d’un élément de la liste */
+struct Element {
+    int val;
+    struct Element *suivant;
+};
+typedef struct Element LISTE;
+
+/* Fonction pour insérer un élément en tête */
+int InsererElementEnTete(LISTE **L, int valeur) {
+    LISTE *element = NULL;
+    element = (LISTE*) malloc(sizeof(LISTE));
+    
+    if (element == NULL) {
+        printf("Problème d’allocation mémoire\n");
+        return 0;
+    }
+    
+    element->val = valeur;
+    element->suivant = *L;
+    *L = element;
+    return 1;
+}
+
+int main() {
+    LISTE *maListe = NULL; // Initialisation de la liste vide
+    int i;
+
+    // Initialisation du générateur de nombres aléatoires
+    srand(time(NULL));
+
+    // Boucle pour construire une liste de 100 éléments
+    for(i = 0; i < 100; i++) {
+        
+        int nombreAleatoire = rand() % 100;
+        InsererElementEnTete(&maListe, nombreAleatoire);
+    }
+
+    printf("La liste de 100 elements a ete construite avec succes.\n");
+
+    return 0;
+}
