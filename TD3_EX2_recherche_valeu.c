@@ -1,3 +1,8 @@
+/* EXERCICE 2 : Recherche séquentielle.
+   Ce programme parcourt la liste pour vérifier si une valeur existe.
+   Il renvoie 1 (trouvé) ou 0 (non trouvé).
+   Complexité : O(n) car on peut être amené à parcourir toute la liste.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
