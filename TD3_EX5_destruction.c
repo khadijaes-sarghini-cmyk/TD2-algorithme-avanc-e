@@ -1,3 +1,8 @@
+/* EXERCICE 5 : Gestion de la mémoire.
+   Détruit proprement la liste en libérant chaque nœud avec free().
+   Essentiel pour éviter les fuites de mémoire (memory leaks).
+   Complexité : O(n).
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
