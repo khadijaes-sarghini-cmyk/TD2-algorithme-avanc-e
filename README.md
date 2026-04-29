@@ -1,5 +1,5 @@
 # 🚀 Algorithmique et Structures de Données en C
-**Auteur :** Khadija | Étudiante en Infrastructure Digitale, Réseaux et Sécurité (IDRS)
+**Khadija es-sarghini**| Étudiante en Infrastructure Digitale, Réseaux et Sécurité (IDRS)
 **École :** EST Kénitra | 1ère Année
 
 Ce dépôt contient l'ensemble des Travaux Dirigés (TD) réalisés durant le second semestre. L'objectif est d'approfondir la manipulation de la mémoire, les structures de données dynamiques et l'optimisation algorithmique.
